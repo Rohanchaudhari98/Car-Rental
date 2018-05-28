@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hertz - Premium Car Rentals</title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link href="style.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet"/>
+	<link rel="shortcut icon" type="image/png" href="img/icons/hertz.jpg"/>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+	<div id="banner-wrapper">
+		<header>
+			<div id="header-inner">
+				<a href="index.html" id="logo"></a>
+				<nav>
+					<a href="#" id="menu-icon"></a>
+					<ul>
+						<li><a href="index.html" class="current">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="tariff.html">Tariff</a></li>
+						<li><a href="rules.html">Rules and Regulations</a></li>
+						<li><a href="contact.html">Contact </a></li>
+						<li><a href="login.php">Sign Up/Login </a></li>
+
+					</ul>
+				</nav>
+			</div>
+		</header>
+		  
+
+
+<!--- Slider Start -->
+		<script src="js/jquery.bxslider.min.js"></script>
+		<div class="slide-wrap"><!--For Image Slider-->
+			<section class="slider">
+				<ul class="slider1">
+					<li><img src=img/pics/pic1.jpg style="width:2000px;height:700px;"></li>
+					<li><img src=img/pics/pic2.jpg style="width:2000px;height:700px;"></li>
+					<li><img src=img/pics/pic3.jpg style="width:2000px;height:700px;"></li>
+					<li><img src=img/pics/6873.jpg style="width:2000px;height:700px;"></li>
+				</ul>
+	
+			</section>
+		</div>
+  		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+	 		});
+		</script>
+<!--- Slider End -->
+	</div>
+<!--- Start of the Three Column Icons-->
+	<section class="one-third">
+		<div class="icon-wrap">
+			<td><i class="fa fa-wrench"></i></td>
+		</div>
+		<h3 style="color:#AB1E0D;">Customised</h3>
+	</section>
+	<section class="one-third">
+		<div class="icon-wrap">
+			<td><i class="fa fa-car"></i></td>
+		</div>
+		<h3 style="color:#AB1E0D;">All Terrain</h3>
+	</section>
+	<section class="one-third">
+		<div class="icon-wrap">
+			<td><i class="fa fa-check-square-o"></i></td>
+		</div>
+		<h3 style="color:#AB1E0D;">Certified</h3>
+	</section>
+<!--- End of the Three Column Icons -->
+<div class="clearfix-padding"></div>
+	<h1 style="color:#fff;font-size:30px;" align="center">	
+	<br/>
+	<br/>
+	<strong>HOW IT WORKS</strong></h1>
+	<br/>
+	<br/>
+	<br/>
+	<table cellspacing="80" style="background-color:#fff;max-width:100%;margin:0px;">
+		<tr>
+			<td ><pre><p> <img src="img/pics/calendar.png" align="center" style="width:80px;height:60px;">
+      <h4 style="color:#AB1E0D;" align="left">Select pickoff, pickup & 
+      dropoff times</h4></p></pre></td>
+			<td><pre><p><img src="img/pics/pay.png" align="center" style="width:75px;height:93px;">
+      <h4 style="color:#AB1E0D;" align="left">Register, pay & book the
+          car</h4></p></pre></td>
+			<td><pre><p><img src="img/pics/pick.png" align="center" style="width:75px;height:77px;">
+      <h4 style="color:#AB1E0D;" align="left">Pick the car and drive</h4></p></pre></td>
+			<td><pre><p><img src="img/pics/return.png" align="center" style="width:100px;height:90px;">
+      <h4 style="color:#AB1E0D;" align="left">Return and get deposit
+	refund</h4></p></pre></td>
+		</tr>
+	</table>
+<!-- End Left Column and Sidebar Image -->
+<div class="clearfix-padding"></div>	
+	<section class="one-third-padding">
+		<h3 style="color:white;">Sedan</h3>
+		<img src="img/pics/ferrari-153a.jpg" style="width:350px;height:200px;">
+		<p style="color:#AB1E0D;">Driving enjoyment in beats per minute
+ 
+		</p>
+	</section>
+	<section class="one-third-padding">
+		<h3 style="color:white;">HatchBack</h3>
+		<img src="img/pics/hatchback1.jpg" style="width:350px;height:200px;">
+		<p style="color:#AB1E0D;">Design and Performance
+		
+		</p>
+	</section>
+	<section class="one-third-padding">
+		<h3 style="color:white;">SUV</h3> 
+		<img src="img/pics/SUV.jpg" style="width:350px;height:200px;">
+		<p style="color:#AB1E0D;">Break Through</p>
+	</section>
+	
+	<div id="leftvid">
+			<p style="color:#AB1E0D;font-size:30px;padding-left:150px;">Hertz Teaser</p> 
+			<video id="vid" controls autoplay>
+				<source src="videos\vid1.mp4" type="video/mp4" >
+			</video></div>
+			<div id="rightvid">
+			<p style="color:#AB1E0D;font-size:30px;padding-left:170px;">Experience</p> 
+			<video id="vid" controls autoplay>
+				<source src="videos\vid2.mp4" type="video/mp4">
+			</video>
+	</div>
+	
+<!-- ENd One Third Padding Section-- >
+	</div><!--End Wrapper-->
+	<div class="clearfix-padding"></div>
+<!--Start Footer-->
+	<footer>
+		<div id="banner-wrapper">
+			<div class="icon-text">
+				<div class="icon-text-icon">
+ 					<ul class="footer-nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="#">Tariff</a></li>
+						<li><a href="rules.html">Rules and Regulations</a></li>
+						<li><a href="contact.html">Contact</a></li>
+	
+					</ul>
+				</div>
+				<div class="icon-text-text">
+					<ul class="social">
+						<li><a href="mailto:email@website.com"><i class="fa fa-envelope-o"></i>
+						</a></li>
+						<li><a href="https://www.facebook.com/w3newbie/"><i class="fa fa-facebook"></i>
+						</a></li>
+						<li><a href="https://plus:google.com/+DrewRyan_w3/posts"><i class="fa fa-google-plus"></i>
+						</a></li>
+						<li><a href="https://www.twitter.com/drewoncue"><i class="fa fa-twitter"></i>
+						</a></li>
+						<li><a href="https://youtube.com/user/drewoncue"><i class="fa fa-youtube"></i>
+						</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+	</footer>
+	
+</body>
+</html>
